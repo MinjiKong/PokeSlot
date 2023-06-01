@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pokemonMainFragment"
+        android:icon="@drawable/ic_baseline_catching_pokemon_24"
+        android:title="Pokemon" />
+    <item
+        android:id="@+id/pokeColFrag"
+        android:icon="@drawable/ic_baseline_spoke_24"
+        android:title="PokeCollection" />
+    <item
+        android:id="@+id/pokeSlotsFragment"
+        android:icon="@drawable/ic_baseline_data_saver_on_24"
+        android:title="PokeSlots" />
+</menu>

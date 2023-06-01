@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+    <ImageView
+        android:id="@+id/imageView_signin_logo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/signin_pokemonImage"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView_signin_pokemons"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/signin_logo"
+        app:srcCompat="@drawable/pokemons" />
+
+    <EditText
+        android:id="@+id/editText_signin_email"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/signin_email"
+        android:inputType="textEmailAddress"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editText_signin_password"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/signin_password"
+        android:inputType="textPassword"
+        tools:ignore="TextContrastCheck" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="13dp" />
+
+    <TextView
+        android:id="@+id/textView_signin_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/signin_register"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="26dp" />
+
+    <Button
+        android:id="@+id/button_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:shape="rectangle"
+        android:text="@string/signin_login"
+        android:textColor="@color/white"
+        tools:ignore="TextContrastCheck" />
+
+</LinearLayout>

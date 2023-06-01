@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pokemonMainFragment">
+
+    <fragment
+        android:id="@+id/pokemonMainFragment"
+        android:name="com.example.pokeslots.PokemonMainFragment"
+        android:label="fragment_pokemon_main"
+        tools:layout="@layout/fragment_pokemon_main" >
+        <action
+            android:id="@+id/action_pokemonMainFragment_to_pokeColFrag"
+            app:destination="@id/pokeColFrag" />
+        <action
+            android:id="@+id/action_pokemonMainFragment_to_pokeSlotsFragment2"
+            app:destination="@id/pokeSlotsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pokeColFrag"
+        android:name="com.example.pokeslots.PokeColFrag"
+        android:label="fragment_poke_col"
+        tools:layout="@layout/fragment_poke_col" >
+        <action
+            android:id="@+id/action_pokeColFrag_to_pokemonMainFragment"
+            app:destination="@id/pokemonMainFragment" />
+        <action
+            android:id="@+id/action_pokeColFrag_to_pokeSlotsFragment2"
+            app:destination="@id/pokeSlotsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pokeSlotsFragment"
+        android:name="com.example.pokeslots.PokeSlotsFragment"
+        android:label="fragment_poke_slots"
+        tools:layout="@layout/fragment_poke_slots" >
+        <action
+            android:id="@+id/action_pokeSlotsFragment2_to_pokemonMainFragment"
+            app:destination="@id/pokemonMainFragment" />
+        <action
+            android:id="@+id/action_pokeSlotsFragment2_to_pokeColFrag"
+            app:destination="@id/pokeColFrag" />
+    </fragment>
+</navigation>

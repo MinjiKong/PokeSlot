@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "986587471693",
+    "project_id": "pokeslot-2023",
+    "storage_bucket": "pokeslot-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986587471693:android:a29666361432d04403e104",
+        "android_client_info": {
+          "package_name": "com.example.pokeslots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986587471693-p64u605g1s7lgtf4ci4jah76b1mgapns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pokeslots",
+            "certificate_hash": "b3e93362cdb1349c37aa6885b78a144419dc4874"
+          }
+        },
+        {
+          "client_id": "986587471693-7klijs8ubl45mi600qev0cge7int7v1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuAYBBKQuHUH1irbc2zqYvmgQNw4QUS6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986587471693-7klijs8ubl45mi600qev0cge7int7v1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

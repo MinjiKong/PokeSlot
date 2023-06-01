@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PokeSlots</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_pet">Pet</string>
+    <string name="Main_feed">Feed</string>
+    <string name="Main_bath">Bath</string>
+    <string name="Adapter_name">Name</string>
+    <string name="button_pokeCol">Button</string>
+    <string name="button_pokeCollection">Set as Main Pokemon</string>
+    <string name="pokeCol_img">Image of the pokemon in pokemonCollection Acitvity</string>
+    <string name="Main_gotoPokeCol">goto PokeCol</string>
+    <string name="main_username">Username</string>
+    <string name="main_image">Main Image</string>
+    <string name="pokename">PokeName</string>
+    <string name="affectionlevel">AffectionLevel</string>
+    <string name="affectionprogress"></string>
+    <string name="name">Name:</string>
+    <string name="level">Level:</string>
+    <string name="nameLabel">Name:</string>
+    <string name="levelLabel">Level: </string>
+    <string name="signin_login">LOGIN</string>
+    <string name="signin_email">Email</string>
+    <string name="signin_password">Password</string>
+    <string name="signin_register">Not Registered Yet? Sign Up Here</string>
+    <string name="signup_register">SIGN UP</string>
+    <string name="signup_login">Already Have An Account? Login Here</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_registertitle">CREATE AN ACCOUNT</string>
+    <string name="signin_pokemonImage">signInMainImage</string>
+    <string name="signin_logo">app logo</string>
+    <string name="signup_image">Pokemon Professor</string>
+    <string name="signup_welcome">Welcome!</string>
+    <string name="pokeslots_button">DRAW</string>
+    <string name="pokecol_species">Species:</string>
+    <string name="main_save">SAVE PROGRESS</string>
+</resources>
